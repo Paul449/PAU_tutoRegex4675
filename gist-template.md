@@ -45,9 +45,9 @@ The dollar sign($) define the ending of our string
 Flags are paramaters used if we want to alter the behavor when doing a search pattern to any kind of string we specify.
 The most common flags are the following:
 
-   [\d](#\d): this flag generates indices to match substrings
-   [\i](#\i): this flag means if we want our search to be case-insensitive, no matter if there are uppercase or lowercase letters
-   [\g](#\g): stands for global search, which means the string should be tested with any match being made
+   \d: this flag generates indices to match substrings
+   \i: this flag means if we want our search to be case-insensitive, no matter if there are uppercase or lowercase letters
+   \g: stands for global search, which means the string should be tested with any match being made
 
 ### Grouping and Capturing
 
