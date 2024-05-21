@@ -21,8 +21,14 @@ Briefly summarize the regex you will be describing and what you will explain. In
 - [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
 ## Regex Components
+The following components that I will be explaining are enclosed using slash (/)
+to define our
 
 ### Anchors
+
+Anchors allow us to define how our string is going to start and end. The two main anchors are caret(^) and dollar sign($)
+the caret(^) define the beginning of our string
+The dollar sign($) define the ending of our string
 
 ### Quantifiers
 
