@@ -1,6 +1,8 @@
-# Title (replace with your title)
+# Regex-Matching an Email
 
-The purpose of this tutorial is to explain how regular expressions are applied to our code
+The purpose of this tutorial is to explain how we can implement regular expressions when matching with any email depending
+the name, domain, and extension defined. This will help us when creating our server-side API and we want to specify to the
+client the rules needed to be used when trying to access to our server. Regular expressions can also apply for any other
 
 ## Summary
 
@@ -21,8 +23,10 @@ Briefly summarize the regex you will be describing and what you will explain. In
 - [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
 ## Regex Components
+
 The following components that I will be explaining are enclosed using slash (/)
-to define our
+to define our string using regular expression and deciding what conditions to give
+to our string to make different type of matches.
 
 ### Anchors
 
@@ -38,6 +42,13 @@ The dollar sign($) define the ending of our string
 
 ### Flags
 
+Flags are paramaters used if we want to alter the behavor when doing a search pattern to any kind of string we specify.
+The most common flags are the following:
+
+   [\d](#\d): this flag generates indices to match substrings
+   [\i](#\i): this flag means if we want our search to be case-insensitive, no matter if there are uppercase or lowercase letters
+   [\g](#\g): stands for global search, which means the string should be tested with any match being made
+
 ### Grouping and Capturing
 
 ### Bracket Expressions
@@ -52,6 +63,6 @@ The dollar sign($) define the ending of our string
 
 ## Author
 
-author: Paul Bilbatua
+Author: Paul Bilbatua
 
 repository link: https://github.com/Paul449/PAU_tutoRegex4675
