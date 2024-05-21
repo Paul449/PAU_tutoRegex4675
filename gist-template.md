@@ -1,6 +1,6 @@
 # Title (replace with your title)
 
-Introductory paragraph (replace this with your text)
+The purpose of this tutorial is to explain how regular expressions are applied to our code
 
 ## Summary
 
@@ -46,4 +46,6 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+author: Paul Bilbatua
+
+repository link: https://github.com/Paul449/PAU_tutoRegex4675
