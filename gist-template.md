@@ -2,11 +2,22 @@
 
 The purpose of this tutorial is to explain how we can implement regular expressions when matching with any email depending
 the name, domain, and extension defined. This will help us when creating our server-side API and we want to specify to the
-client the rules needed to be used when trying to access to our server. Regular expressions can also apply for any other
+client the rules needed to be used when trying to access to our server. Regular expressions can also apply for any other string examples.
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+I will be explaning how we can regular expressions when it comes to specifying an email to be matched with the requirements or conditions
+we are providing to the client. 
+
+An email is divided into three parts:
+
+1.- Username
+
+2.- Separator
+
+3.- Domain Name
+
+Here is an example of how regular expressions are being used when matching with email using Github gist.
 
 ## Table of Contents
 
@@ -36,7 +47,8 @@ The dollar sign($) define the ending of our string
 
 ### Quantifiers
 
-### OR Operator
+Quantifiers allow us to set a limit of how many times we can make a character to be repeated
+
 
 ### Character Classes
 
