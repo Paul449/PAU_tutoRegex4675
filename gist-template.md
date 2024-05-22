@@ -42,45 +42,47 @@ to our string to make different type of matches.
 ### Anchors
 
 Anchors allow us to define how our string is going to start and end. The two main anchors are caret(^) and dollar sign($)
-the caret(^) define the beginning of our string
-The dollar sign($) define the ending of our string
+
+1. the caret(^) define the beginning of our string
+
+2. The dollar sign($) define the ending of our string
 
 ### Quantifiers
 
 Quantifiers allow us to set a limit of how many times we can make a character to be repeated
 
-`+`: This quantifier allow us to match one or even more than one character from our string
-`*`: it matches zero or more characters from our string
-`?`: it also matches zero or more characters from our string
+1. `+`: This quantifier allow us to match one or even more than one character from our string
+2. `*`: it matches zero or more characters from our string
+3. `?`: it also matches zero or more characters from our string
 
 ### Character Classes
 
-1.-[-A-Za-z0-9!#$%&'*+/=?^_`{|}~`]: this specific part matches one or more characters that are alphanumeric
+1. [-A-Za-z0-9!#$%&'*+/=?^_`{|}~`]: this specific part matches one or more characters that are alphanumeric
 
-2.-[A-Za-z0-9]: This is responsible for matching any alphanumeric characters
+2. [A-Za-z0-9]: This is responsible for matching any alphanumeric characters
 
 ### Flags
 
 Flags are paramaters used if we want to alter the behavor when doing a search pattern to any kind of string we specify.
 The most common flags are the following:
 
-   `\d`: this flag generates indices to match substrings
-   `\i`: this flag means if we want our search to be case-insensitive, no matter if there are uppercase or lowercase letters
-   `\g`: stands for global search, which means the string should be tested with any match being made
+  1. `\d`: this flag generates indices to match substrings
+  2. `\i`: this flag means if we want our search to be case-insensitive, no matter if there are uppercase or lowercase letters
+  3. `\g`: stands for global search, which means the string should be tested with any match being made
 
 but in this case, I did not defined any flag
 
 ### Grouping and Capturing
 
-1.-`(...)`:
-2.-`(?:...)`:
-3.-`[...]`:
-4.-`('-')`: it defines a particular range between characters, for example a-z or 0-9
+1. `(...)`: allow us to separate grouping of characters by using parenthesis
+2. `(?:...)`: we can group our characters without capturing anything
+3. `[...]`: we are defining different character classes inside squared brackets
+4. `('-')`: it defines a particular range between characters, for example a-z or 0-9
 
 ### Escape Sequences
 
-1.- `\`:it matches a dot character in our string
-2.-`\\`: used for matching for special characters
+1. `\`:it matches a dot character in our string
+2. `\\`: used for matching for special characters
 
 ### Literal Characters
 
