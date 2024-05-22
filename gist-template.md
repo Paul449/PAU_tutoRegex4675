@@ -19,6 +19,8 @@ An email is divided into three parts:
 
 Here is an example of how regular expressions are being used when matching with email using Github gist.
 
+code snippet:
+
 ## Table of Contents
 
 - [Anchors](#anchors)
@@ -64,17 +66,24 @@ The most common flags are the following:
    \i: this flag means if we want our search to be case-insensitive, no matter if there are uppercase or lowercase letters
    \g: stands for global search, which means the string should be tested with any match being made
 
-but in thus case, I only use one flag (\i) because
+but in thus case, I only use one flag (\i) because I am only
 
 ### Grouping and Capturing
-
+1.-(...):
+2.-(?:...):
+3.-[...]:
+4.-'-':
 ### Bracket Expressions
 
 The brackets represents the enclosement of required characters for our search pattern
 
 ### Escape Sequences
 
+1.- '\':
+2.-'\\':
 ### Literal Characters
+
+refers to characters that matches by itself without being grouped. The clear example used in my code snippet is @ and it only matches by itself
 
 ## Author
 
