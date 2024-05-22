@@ -43,9 +43,9 @@ to our string to make different type of matches.
 
 Anchors allow us to define how our string is going to start and end. The two main anchors are caret(^) and dollar sign($)
 
-1. the caret(^) define the beginning of our string
+1. the caret`(^)` define the beginning of our string
 
-2. The dollar sign($) define the ending of our string
+2. The dollar sign`($)` define the ending of our string
 
 ### Quantifiers
 
