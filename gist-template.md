@@ -53,7 +53,7 @@ Quantifiers allow us to set a limit of how many times we can make a character to
 
 ### Character Classes
 
-1.-[-A-Za-z0-9!#$%&'*+/=?^_`{|}~]: this specific part matches one or more characters that are alphanumeric
+1.-[-A-Za-z0-9!#$%&'*+/=?^_`{|}~`]: this specific part matches one or more characters that are alphanumeric
 
 2.-[A-Za-z0-9]: This is responsible for matching any alphanumeric characters
 
@@ -62,23 +62,23 @@ Quantifiers allow us to set a limit of how many times we can make a character to
 Flags are paramaters used if we want to alter the behavor when doing a search pattern to any kind of string we specify.
 The most common flags are the following:
 
-   \d: this flag generates indices to match substrings
-   \i: this flag means if we want our search to be case-insensitive, no matter if there are uppercase or lowercase letters
-   \g: stands for global search, which means the string should be tested with any match being made
+   `\d`: this flag generates indices to match substrings
+   `\i`: this flag means if we want our search to be case-insensitive, no matter if there are uppercase or lowercase letters
+   `\g`: stands for global search, which means the string should be tested with any match being made
 
 but in this case, I did not defined any flag
 
 ### Grouping and Capturing
 
-1.-(...):
-2.-(?:...):
-3.-[...]:
-4.-('-'): it defines a particular range between characters, for example a-z or 0-9
+1.-`(...)`:
+2.-`(?:...)`:
+3.-`[...]`:
+4.-`('-')`: it defines a particular range between characters, for example a-z or 0-9
 
 ### Escape Sequences
 
-1.- '\':
-2.-'\\':
+1.- `\`:
+2.-`\\`:
 ### Literal Characters
 
 refers to characters that matches by itself without being grouped. The clear example used in my code snippet is @ and it only matches by itself
