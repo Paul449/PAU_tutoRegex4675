@@ -86,7 +86,7 @@ but in this case, I did not defined any flag
 
 ### Literal Characters
 
-refers to characters that matches by itself without being grouped. The clear example used in my code snippet is @ and it only matches by itself
+refers to characters that matches by itself without being grouped. The clear example used in my code snippet is `@` and it only matches by itself
 
 ## Author
 
