@@ -21,6 +21,8 @@ Here is an example of how regular expressions are being used when matching with 
 
 code snippet:
 
+\`^[-A-Za-z0-9!#$%&'*+/=?^_`{|}~]+(?:\.[-A-Za-z0-9!#$%&'*+/=?^_`{|}~]+)*@(?:[A-Za-z0-9](?:[-A-Za-z0-9]*[A-Za-z0-9])?\.)+[A-Za-z0-9](?:[-A-Za-z0-9]*[A-Za-z0-9])?$\`
+
 ## Table of Contents
 
 - [Anchors](#anchors)
@@ -47,9 +49,9 @@ The dollar sign($) define the ending of our string
 
 Quantifiers allow us to set a limit of how many times we can make a character to be repeated
 
-+: This quantifier allow us to match one or even more than one character from our string
-*: it matches zero or more characters from our string
-?: it also matches zero or more characters from our string
+`+`: This quantifier allow us to match one or even more than one character from our string
+`*`: it matches zero or more characters from our string
+`?`: it also matches zero or more characters from our string
 
 ### Character Classes
 
@@ -77,8 +79,9 @@ but in this case, I did not defined any flag
 
 ### Escape Sequences
 
-1.- `\`:
-2.-`\\`:
+1.- `\`:it matches a dot character in our string
+2.-`\\`: used for matching for special characters
+
 ### Literal Characters
 
 refers to characters that matches by itself without being grouped. The clear example used in my code snippet is @ and it only matches by itself
