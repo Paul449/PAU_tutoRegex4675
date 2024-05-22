@@ -30,8 +30,8 @@ code snippet:
 - [Character Classes](#character-classes)
 - [Flags](#flags)
 - [Grouping and Capturing](#grouping-and-capturing)
-- [Escape Sequences](#Escape Sequences)
-- [Literal Characters](#Literal Characters)
+- [Escape Sequences](#EscapeSequences)
+- [Literal Characters](#LiteralCharacters)
 
 ## Regex Components
 
