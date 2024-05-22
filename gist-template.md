@@ -49,6 +49,9 @@ The dollar sign($) define the ending of our string
 
 Quantifiers allow us to set a limit of how many times we can make a character to be repeated
 
++: This quantifier allow us to match one or even more than one character from our string
+*: it matches zero or more characters from our string
+?: it also matches zero or more characters from our string
 
 ### Character Classes
 
@@ -61,17 +64,17 @@ The most common flags are the following:
    \i: this flag means if we want our search to be case-insensitive, no matter if there are uppercase or lowercase letters
    \g: stands for global search, which means the string should be tested with any match being made
 
+but in thus case, I only use one flag (\i) because
+
 ### Grouping and Capturing
 
 ### Bracket Expressions
 
-### Greedy and Lazy Match
+The brackets represents the enclosement of required characters for our search pattern
 
-### Boundaries
+### Escape Sequences
 
-### Back-references
-
-### Look-ahead and Look-behind
+### Literal Characters
 
 ## Author
 
