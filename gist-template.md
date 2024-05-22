@@ -57,9 +57,9 @@ Quantifiers allow us to set a limit of how many times we can make a character to
 
 ### Character Classes
 
-1. [-A-Za-z0-9!#$%&'*+/=?^_`{|}~`]: this specific part matches one or more characters that are alphanumeric
+1. `[-A-Za-z0-9!#$%&'*+/=?^_`{|}~`]`: this specific part matches one or more characters that are alphanumeric
 
-2. [A-Za-z0-9]: This is responsible for matching any alphanumeric characters
+2. `[A-Za-z0-9]`: This is responsible for matching any alphanumeric characters
 
 ### Flags
 
