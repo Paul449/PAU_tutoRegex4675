@@ -57,6 +57,10 @@ Quantifiers allow us to set a limit of how many times we can make a character to
 
 ### Character Classes
 
+1.-[-A-Za-z0-9!#$%&'*+/=?^_`{|}~]
+
+2.-[A-Za-z0-9]
+
 ### Flags
 
 Flags are paramaters used if we want to alter the behavor when doing a search pattern to any kind of string we specify.
@@ -69,13 +73,11 @@ The most common flags are the following:
 but in thus case, I only use one flag (\i) because I am only
 
 ### Grouping and Capturing
+
 1.-(...):
 2.-(?:...):
 3.-[...]:
-4.-'-':
-### Bracket Expressions
-
-The brackets represents the enclosement of required characters for our search pattern
+4.-('-'): it defines a particular range between characters, for example a-z or 0-9
 
 ### Escape Sequences
 
